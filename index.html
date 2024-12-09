@@ -55,14 +55,14 @@ width:50%;
     const map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/oe2189/cm364sg0j002r01qs34e21zgx',//set the dot map URL here
-        center: [-73.962,40.742],//set map center coorinates inside square brackets as an array, in [lng,lat] format
+        center: [-73.983,40.746],//set map center coorinates inside square brackets as an array, in [lng,lat] format
         zoom: 11.44 //set zoom so whole country can be viewed easily
     });
 
     const satMap = new mapboxgl.Map({
         container: 'popup',
-        style: 'mapbox://styles/oe2189/cm4g4zjsv000r01qpbuar0pc6mapbox://styles/oe2189/cm4g4zjsv000r01qpbuar0pc6mapbox://styles/oe2189/cm4g4zjsv000r01qpbuar0pc6',//set your satelite map style URL here
-        center: [-73.962,40.742],//set map center coorinates inside square brackets as an array, in [lng,lat] format
+        style: 'mapbox://styles/oe2189/cm4g4zjsv000r01qpbuar0pc6',//set your satelite map style URL here
+        center: [-73.983,40.746],//set map center coorinates inside square brackets as an array, in [lng,lat] format
         //for this map center, pick a place maybe with a compelling satelite image of a prison to start.
         zoom: 11.44 //set zoom so that it is showing a closeup
     });
